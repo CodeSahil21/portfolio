@@ -1,41 +1,18 @@
 "use server";
 
-import connectToDatabase from "@/lib/database";
-import LoveCount from "@/model/loveCount.model";
+let loveCountValue = 0;
 
 export async function getLoveCountServerAction() {
-  try {
-    await connectToDatabase();
-    const loveDoc = await LoveCount.findOne({});
-    return {
-      success: true,
-      count: loveDoc?.count ?? 0,
-    };
-  } catch (error) {
-    return {
-      success: false,
-      message: "Failed to get love count",
-    };
-  }
+  return {
+    success: true,
+    count: loveCountValue,
+  };
 }
 
 export async function setLoveCountServerAction() {
-  try {
-    await connectToDatabase();
-    const loveCount = await LoveCount.findOneAndUpdate(
-      {},
-      { $inc: { count: 1 } },
-      { new: true, upsert: true }
-    );
-
-    return {
-      success: true,
-      count: loveCount.count,
-    };
-  } catch (error) {
-    return {
-      success: false,
-      message: "Failed to update love count",
-    };
-  }
+  loveCountValue += 1;
+  return {
+    success: true,
+    count: loveCountValue,
+  };
 }
