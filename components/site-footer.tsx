@@ -1,7 +1,5 @@
 export const dynamic = "auto";
 
-import Link from "next/link";
-
 export async function SiteFooter() {
   return (
     <footer className="py-2 border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
