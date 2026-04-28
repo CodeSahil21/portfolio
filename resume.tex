@@ -1,0 +1,114 @@
+\documentclass[a4paper,9pt]{article}
+
+% -------------------- PACKAGES --------------------
+\usepackage{parskip}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage[scale=0.9, top=.34in, bottom=.34in, left=.40in, right=.40in]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=black,
+  linkcolor=black
+}
+
+% -------------------- SECTION FORMATTING --------------------
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{2pt}
+\setlist[itemize]{leftmargin=1.7em, itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}
+\setlength{\parskip}{1.5pt}
+
+% -------------------- DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADER --------------------
+\begin{tabularx}{\linewidth}{@{} >{\centering\arraybackslash}X @{}}
+{\color[HTML]{1C033C}\Huge Sahil Singh} \\[8pt]
+
+{\faEnvelope}\ \href{mailto:sahil.s39026@gmail.com}{sahil.s39026@gmail.com}
+\ $|$\ 
+{\faMobile}\ 8591501356 \\
+
+\href{https://github.com/CodeSahil21}{\faGithub\ github.com/CodeSahil21}
+\ $|$\ 
+\href{https://linkedin.com/in/sahil-singh-Code21}{\faLinkedin\ linkedin.com/in/sahil-singh-Code21}
+\ $|$\ 
+\href{https://codesahil21-dev.vercel.app/}{\faGlobe\ codesahil21-dev.vercel.app}
+\end{tabularx}
+
+% -------------------- EXPERIENCE --------------------
+\section{Technical Experience \& Impact}
+\textbf{Software Engineer (AI \& Distributed Systems)} \hfill \textit{2025 -- Present}\\[2pt]
+Experienced in full-stack web development, distributed systems, and generative AI --- designing and shipping production-grade platforms with \textbf{React/Next.js}, event-driven backends (\textbf{Kafka, Redis, WebSockets}), \textbf{RAG and Graph AI pipelines}, and cloud-native deployments via \textbf{Docker, Kubernetes, and Helm}.
+
+\vspace{4pt}
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+\begin{itemize}[leftmargin=0pt, label={}]
+    \item \textbf{Languages:} Java, Python, TypeScript, JavaScript, SQL
+  \item \textbf{Frontend:} React.js, Next.js, Redux Toolkit, Tailwind CSS, Axios
+    \item \textbf{Backend \& Architecture:} Node.js, Express.js, Apache Kafka, Redis, BullMQ, Socket.IO, Prisma, PostgreSQL, MongoDB, MinIO, Docker, GitHub Actions
+    \item \textbf{AI \& Data:} LangGraph, LangChain, Qdrant, Neo4j, LlamaParse, FastEmbed (SPLADE), Mem0, Langfuse
+    \item \textbf{Concepts:} DSA, System Design, Distributed Systems, Service-Oriented Architecture (SOA), Event-Driven Architecture, Hybrid Search, Graph RAG, Knowledge Graphs, Async Pipelines, REST APIs, CI/CD, RBAC
+\end{itemize}
+
+% -------------------- PROJECTS --------------------
+\section{Projects}
+
+\textbf{ChannelIQ — Enterprise Communication Platform} \hfill \textit{Oct 2025 -- Jan 2026}\\
+\href{https://github.com/CodeSahil21/ChannelIQ}{GitHub Repository}
+\begin{itemize}
+\item Solved message delivery lag with a \textbf{distributed service-oriented real-time platform} using WebSockets and Redis Pub/Sub.
+\item Reduced event loss risk by integrating \textbf{Apache Kafka} with idempotent producers and consumer groups for fault-tolerant processing.
+\item Cut database write contention by \textbf{32\%} through message batching and Prisma-backed persistence pipeline changes.
+\item Shortened release turnaround using CI/CD automation with GitHub Actions, Docker, and Helm for repeatable deployments.
+\item Improved production debugging speed using Prometheus, Grafana, and Loki for metrics and log correlation.
+\end{itemize}
+
+\textbf{VendorClause AI — Legal Document Intelligence Platform} \hfill \textit{Jan 2026 -- Apr 2026}\\
+\href{https://github.com/CodeSahil21/VendorClause-Ai.git}{GitHub Repository}
+\begin{itemize}
+\item Built a \textbf{3-service distributed legal AI platform} (Client, Gateway, AI Service) for secure, source-grounded contract Q\&A.
+\item Built a \textbf{Next.js frontend} for document upload, session chat, and live processing status.
+\item Improved ingestion reliability for large legal PDFs with a \textbf{5-stage async RAG pipeline} (parse, chunk, index, graph extract, persist).
+\item Improved retrieval accuracy by \textbf{28\%} and reduced query latency by \textbf{40\%} using \textbf{hybrid dense + sparse retrieval} (BGE + SPLADE) with dual indexing in Qdrant and Neo4j.
+\item Increased multi-hop answer quality with \textbf{Graph RAG} via MCP servers for Qdrant and Neo4j traversal.
+\item Reduced repeated-context errors using \textbf{memory-aware retrieval} with Mem0, LangGraph checkpoints, and MongoDB state persistence.
+\item Improved response consistency by coordinating \textbf{4 runtime workers} via Redis Pub/Sub and Socket.IO.
+\end{itemize}
+
+\textbf{CivicFlow — Geo-Spatial Governance Platform} \hfill \textit{Dec 2025 -- Jan 2026}\\
+\href{https://github.com/CodeSahil21/Civic-issue}{GitHub Repository}
+\ $|$\ 
+\href{https://civic-issue-green.vercel.app}{Live Demo}
+\begin{itemize}
+\item Built a geo-spatial issue platform to solve delayed civic routing and improve workflow visibility.
+\item Added \textbf{AI-based issue detection} to classify and prioritize citizen reports for faster municipal triage.
+\item Improved ward-mapping accuracy by \textbf{100\%+} using \textbf{PostGIS point-in-polygon} queries on GPS coordinates.
+\item Reduced unauthorized workflow actions by enforcing \textbf{RBAC} boundaries and audit-ready action logs.
+\item Improved SLA tracking consistency with a deterministic \textbf{issue lifecycle state machine} across verification stages.
+\end{itemize}
+
+% -------------------- EDUCATION --------------------
+\section{Education}
+\textbf{Parul University} \hfill \textit{Aug 2023 -- May 2027 (Expected)}\\
+\textbf{B.Tech in Computer Science and Engineering} \hfill \textbf{CGPA: 7.73 / 10}\\
+Relevant Coursework: Data Structures and Algorithms, Operating Systems, DBMS, Computer Networks
+
+% -------------------- CERTIFICATIONS & ACHIEVEMENTS --------------------
+\section{Certifications \& Achievements}
+\begin{itemize}
+\item \textbf{NPTEL — Computer Networks and Internet Protocols (IIT Kharagpur):} Score 72/100.
+\item Solved \textbf{500+ algorithmic problems} across LeetCode, Codeforces, and GeeksforGeeks, covering arrays, trees, graphs, and dynamic programming.
+\end{itemize}
+
+\end{document}

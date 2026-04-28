@@ -25,26 +25,6 @@ export async function SiteFooter() {
               <span className="font-medium text-foreground">Vercel</span>
             </span>
           </div>
-          <div className="text-xs text-center sm:text-sm text-muted-foreground">
-            Developed by{" "}
-            <Link
-              href={siteConfig.links.githubProfile}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium transition-colors text-primary hover:text-primary/80"
-            >
-              Aditya Domle
-            </Link>{" "}
-            · Source code available on{" "}
-            <Link
-              href="https://topmate.io/aditya_domle/1773422"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium transition-colors text-primary hover:text-primary/80"
-            >
-              Topmate
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
