@@ -11,27 +11,27 @@ const AboutMePage = () => {
       <PageHeader>
         <PageHeaderHeading>About Sahil</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          Full Stack & AI Engineer — systems, pipelines, and real-world impact.
+          Full Stack & AI Engineer — distributed systems, GenAI pipelines, cloud-native infra.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I&apos;m Sahil Singh, a B.Tech CSE student at Parul University (2023–2027)
-          and a Freelance Full Stack & AI Engineer. I build production-style systems
-          that solve real reliability and retrieval quality problems — from
-          enterprise communication platforms to legal AI and civic-tech.
+          I&apos;m Sahil Singh, a B.Tech CSE student at Parul University (2023–2027) and a
+          Software Engineer specializing in AI & Distributed Systems. I design and ship
+          production-grade platforms across the full stack — from React/Next.js frontends
+          to event-driven backends with Kafka, Redis, and WebSockets.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          My backend work spans event-driven architectures with Kafka, Redis, and
-          BullMQ, real-time systems with WebSockets and Socket.IO, and AI pipelines
-          using LangGraph, LangChain, Qdrant, and Neo4j. On the frontend, I build
-          clean, responsive interfaces with React and Next.js.
+          On the AI side, I build RAG and Graph AI pipelines using LangGraph, LangChain,
+          Qdrant, and Neo4j — with a focus on retrieval accuracy, memory-aware context,
+          and multi-hop reasoning. I deploy everything cloud-native via Docker, Kubernetes,
+          Helm, and GitHub Actions CI/CD.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          Outside of building, I actively sharpen my problem-solving skills —
-          500+ problems solved across LeetCode, Codeforces, and GeeksforGeeks.
-          I care about system design, clean architecture, and shipping software
-          that actually works under pressure.
+          I&apos;ve shipped 3 production-style systems in communication, civic-tech, and legal AI.
+          Outside of building, I&apos;ve solved 500+ algorithmic problems across LeetCode,
+          Codeforces, and GeeksforGeeks — and hold an NPTEL certification in Computer Networks
+          from IIT Kharagpur (72/100).
         </PageHeaderDescription>
       </PageHeader>
 
