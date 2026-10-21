@@ -6,21 +6,7 @@ export async function SiteFooter() {
       <div className="container-wrapper">
         <div className="container flex flex-col items-center justify-center py-4 space-y-2">
           <div className="max-w-3xl text-xs leading-relaxed text-center sm:text-sm text-balance text-muted-foreground">
-            <span className="block sm:inline">©2026</span>
-            <span className="hidden sm:inline"> · </span>
-            <span className="block sm:inline">
-              Built with{" "}
-              <span className="font-medium text-foreground">Next.js</span>,{" "}
-              <span className="font-medium text-foreground">shadcn/ui</span> and{" "}
-              <span className="font-medium text-foreground">Tailwind CSS</span>
-            </span>
-            <span className="hidden sm:inline"> · </span>
-            <span className="block sm:inline">
-              Coded in{" "}
-              <span className="font-medium text-foreground">Cursor</span> and
-              deployed with{" "}
-              <span className="font-medium text-foreground">Vercel</span>
-            </span>
+            ©2026 Sahil Singh
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ export const siteConfig = {
     github: 'https://github.com/CodeSahil21',
     githubProfile: 'https://github.com/CodeSahil21',
     linkedin: 'https://www.linkedin.com/in/sahil-singh-Code21',
-    resume: 'https://drive.google.com/file/d/1xK62Bhmcn77KRTgITIdpPeWVvvkojU4a/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/17MrEa7qXtl9xGGf4QabPkc-ytsLN5g_8/view?usp=sharing',
     email: 'mailto:sahil.s39026@gmail.com',
     githubUsername: 'CodeSahil21',
   },

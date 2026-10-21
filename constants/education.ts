@@ -2,9 +2,9 @@ import { TimelineViewerData } from '@/types/TimelineViewer.types';
 
 export const education: TimelineViewerData[] = [
   {
-    title: 'B.Tech in Computer Science (Cloud Computing) · Parul University · Vadodara, India',
-    date: 'Aug 2023 – 2027 (Expected)',
-    description: `Pursuing B.Tech in Computer Science with specialization in Cloud Computing. Current CGPA: 7.73 / 10. Relevant Coursework: Data Structures and Algorithms, Operating Systems, DBMS, Computer Networks.`,
+    title: 'B.Tech in Computer Science and Engineering · Parul University · Vadodara, India',
+    date: 'Aug 2023 - 2027 (Expected)',
+    description: `Current CGPA: 7.73 / 10. Relevant coursework: Data Structures and Algorithms, Operating Systems, DBMS, Computer Networks, and Object-Oriented Programming.`,
   },
   {
     title: 'Higher Secondary (11th–12th) · Thakur College of Science and Commerce · Kandivali, Mumbai',

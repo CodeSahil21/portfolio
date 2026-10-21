@@ -121,15 +121,19 @@
     font-size: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y;
   }
 
   body {
-    @apply bg-background text-foreground overscroll-none;
+    @apply bg-background text-foreground;
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y;
   }
 
   @supports (font: -apple-system-body) and (-webkit-appearance: none) {

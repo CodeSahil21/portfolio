@@ -14,13 +14,12 @@ const SkillsToolsPage = () => {
       <PageHeader>
         <PageHeaderHeading>Skills & Tools</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          Learned by coding all night and debugging all day!
+          The tools I use to turn ideas into dependable systems.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          As a full-stack Software Engineer, I specialize in building scalable
-          web applications using modern technologies such as Next.js, React, and
-          Tailwind CSS. I'm also expanding my expertise into DevOps and cloud
-          practices to create efficient, maintainable, robust web solutions.
+          My toolkit spans AI and LLM engineering, full-stack development, distributed systems,
+          data platforms, and cloud-native infrastructure. I care about evaluation, observability,
+          performance, and maintainable delivery as much as the feature itself.
         </PageHeaderDescription>
       </PageHeader>
 

@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "ChannelIQ | Enterprise Communication Platform",
+    title: "ChannelIQ | Real-Time Communication Platform",
     slug: "channeliq-enterprise-communication-platform",
     tagline:
       "A comprehensive enterprise communication platform built with microservices, real-time messaging, video conferencing, and professional networking.",
@@ -52,7 +52,7 @@ export const projects = [
   },
 
   {
-    title: "VendorClause-ai | PolyGot",
+    title: "VendorClause AI | Legal Document Intelligence Platform",
     slug: "vendorclause-ai-polygot",
     tagline:
       "An end-to-end AI document intelligence platform for legal-style workflows with async ingestion, hybrid retrieval, and streaming source-grounded answers.",
@@ -107,7 +107,7 @@ export const projects = [
     },
   },
   {
-    title: "VMC Civic Issue Monitoring System",
+    title: "Civic-Issue | Geo-Spatial Governance Platform",
     slug: "vmc-civic-issue-monitoring-system",
     tagline:
       "A geo-fenced, offline-first platform to report, track, and resolve municipal civic issues with speed and accountability.",

@@ -11,27 +11,26 @@ const AboutMePage = () => {
       <PageHeader>
         <PageHeaderHeading>About Sahil</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          Full Stack & AI Engineer — distributed systems, GenAI pipelines, cloud-native infra.
+          AI Engineer focused on AI-native coding, context, graph systems, and evaluations.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I&apos;m Sahil Singh, a B.Tech CSE student at Parul University (2023–2027) and a
-          Software Engineer specializing in AI & Distributed Systems. I design and ship
-          production-grade platforms across the full stack — from React/Next.js frontends
-          to event-driven backends with Kafka, Redis, and WebSockets.
+          I&apos;m Sahil Singh, a B.Tech Computer Science and Engineering student at Parul
+          University (2023–2027). I design and ship production-grade platforms across the
+          full stack, from React/Next.js frontends to event-driven backends with Kafka, Redis,
+          and WebSockets.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          On the AI side, I build RAG and Graph AI pipelines using LangGraph, LangChain,
-          Qdrant, and Neo4j — with a focus on retrieval accuracy, memory-aware context,
-          and multi-hop reasoning. I deploy everything cloud-native via Docker, Kubernetes,
-          Helm, and GitHub Actions CI/CD.
+          On the AI side, I build multi-agent systems, RAG and GraphRAG pipelines, and MCP
+          integrations using LangGraph, LangChain, Qdrant, Neo4j, and local LLMs. I apply
+          AI Loop Engineering, Context Engineering, Graph Engineering, and LLM Evals with LangSmith and Langfuse,
+          then use Harness Engineering practices to improve reliability and delivery.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          I&apos;ve shipped 3 production-style systems in communication, civic-tech, and legal AI.
-          Outside of building, I&apos;ve solved 500+ algorithmic problems across LeetCode,
-          Codeforces, and GeeksforGeeks — and hold an NPTEL certification in Computer Networks
-          from IIT Kharagpur (72/100).
+          I&apos;ve shipped systems for real-time communication, legal document intelligence, and
+          geo-spatial governance. I also enjoy solving hard engineering problems around
+          latency, reliability, observability, and clean system boundaries.
         </PageHeaderDescription>
       </PageHeader>
 

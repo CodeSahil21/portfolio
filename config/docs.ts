@@ -30,6 +30,11 @@ export const docsConfig = {
           items: [],
         },
         {
+          title: 'Experience',
+          href: '/experience',
+          items: [],
+        },
+        {
           title: 'Education',
           href: '/education',
           items: [],

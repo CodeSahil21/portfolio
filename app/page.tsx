@@ -16,13 +16,13 @@ const IntroductionPage = async () => {
       <PageHeader>
         <PageHeaderHeading>Sahil Singh</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          Full Stack & AI Engineer — distributed systems, GenAI pipelines, cloud-native infra.
+          AI Engineer building AI-native products, multi-agent systems, and distributed platforms.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Experienced in full-stack web development, distributed systems, and generative AI —
-          designing and shipping production-grade platforms with React/Next.js, event-driven
-          backends (Kafka, Redis, WebSockets), RAG and Graph AI pipelines, and cloud-native
-          deployments via Docker, Kubernetes, and Helm.
+          I build reliable AI and full-stack systems with AI-native coding workflows, AI Loop
+          Engineering, Context Engineering, Graph Engineering, LangChain, LangGraph, RAG, GraphRAG, and MCP. I use
+          LLM Evals, observability, and Harness Engineering practices to ship measurable,
+          low-latency products on React, Next.js, Kafka, Redis, Docker, and Kubernetes.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm" className="rounded-md">

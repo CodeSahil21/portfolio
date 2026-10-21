@@ -13,16 +13,13 @@ const ExperiencePage = () => {
       <PageHeader className="mb-10">
         <PageHeaderHeading>Experience</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          You need it to get the job, but the job’s what gives it!
+          Building useful systems, then making them faster and more reliable.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Throughout my journey as a developer, I have had the opportunity to
-          work with cutting-edge technologies while also mastering the fine art
-          of debugging at 2 AM. From building dynamic web applications to
-          deciphering cryptic error messages, my experience has been a mix of
-          structured learning and spontaneous problem-solving. Each project and
-          internship has sharpened my ability to write clean code, collaborate
-          effectively, and most importantly—fix bugs before they fix me.
+          I work across AI engineering, full-stack development, and distributed systems,
+          with a focus on measurable quality and production readiness. Recent work includes
+          multi-agent evaluation, real-time communication, legal document intelligence, and
+          geo-spatial governance workflows.
         </PageHeaderDescription>
       </PageHeader>
 

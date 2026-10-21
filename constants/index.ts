@@ -32,6 +32,13 @@ export const mySkills = [
   // AI & Data
   { title: 'LangGraph', icon: 'langgraph' },
   { title: 'LangChain', icon: 'langchain' },
+  { title: 'AI-Native Coding', icon: 'langchain' },
+  { title: 'AI Loop Engineering', icon: 'langgraph' },
+  { title: 'Context Engineering', icon: 'langgraph' },
+  { title: 'Graph Engineering', icon: 'neo4j' },
+  { title: 'LLM Evals', icon: 'langfuse' },
+  { title: 'Harness Engineering', icon: 'langfuse' },
+  { title: 'MCP', icon: 'langchain' },
   { title: 'Qdrant', icon: 'qdrant' },
   { title: 'Neo4j', icon: 'neo4j' },
   { title: 'LlamaParse', icon: 'llamaparse' },
